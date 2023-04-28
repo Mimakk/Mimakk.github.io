@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --black: #070606 ;
+    --white: #FFFDFA;
+    --yellow: #ffc506;
+    --orange: #c24d2c;
+    --lightGray: #d9dad7;
+}
+
+
+*, 
+*::before, 
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family:"Poppins", sans-serif;
+    height: 100%;
+    background-color: var(--white);
+}
+
+h1, h2, p {
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+   /* --- PORTFOLIO --- */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding: 3rem;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+h2 {
+    color: var(--orange);
+    margin-bottom: 0.5rem;
+}
+
+li {
+    margin-left: 2rem;    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+    align-items: center;
+    justify-items: center;
+    margin: 3rem;
+    padding-bottom: 3rem;
+}
+
+.item1 {
+    justify-self: center;
+  }
+  
+  .item2 {
+    justify-self: start;
+  }
+
+.card {
+    width: 386px;
+    height: 218px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+
+.lemon {
+    width: 384px;
+    height: 216px;
+    background: url("/projects/images/little-lemon/landing.png") no-repeat;
+    display: inline-block;
+    background-size: 384px 216px;
+    border-radius: 30px;
+}
+
+.lemon:hover {
+    background: url("/projects/images/little-lemon/menu.png") no-repeat;
+    background-size: 384px 216px;
+}
+
+.mode {
+    width: 384px;
+    height: 216px;
+    background: url("/projects/images/lightmode-darkmode/light.png") no-repeat;
+    display: inline-block;
+    background-size: 384px 216px;
+    border-radius: 30px;
+}
+.mode:hover {
+    background: url("/projects/images/lightmode-darkmode/dark.png") no-repeat;
+    background-size: 384px 216px;
+}
+
+.sign {
+    width: 384px;
+    height: 216px;
+    background: url("/projects/images/signin-signup/in.png") no-repeat;
+    display: inline-block;
+    background-size: 384px 216px;
+    border-radius: 30px;
+}
+.sign:hover {
+    background: url("/projects/images/signin-signup/up.png") no-repeat;
+    background-size: 384px 216px;
+}
+
+ul {
+    margin-bottom: 1rem;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border-radius: 10em;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+  }
+  
+  .button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+  }
+  
+  .button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+  }
+
+.return {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing {
+    display: flex;
+    font-size: 17px;
+    padding: 1em 2em;
+    margin-bottom: 4rem;
+}
