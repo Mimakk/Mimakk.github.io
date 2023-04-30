@@ -160,3 +160,65 @@ ul {
     padding: 1em 2em;
     margin-bottom: 4rem;
 }
+
+@media screen and (max-width: 870px) {
+    .grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .text {
+        max-width: 384px;
+    }
+
+    .landing {
+        display: flex;
+        font-size: 11px;
+        padding: 1em 2em;
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .card {
+        width: 258px;
+        height: 144px;
+        border-radius: 30px;
+        background: #e0e0e0;
+        box-shadow: 7px 7px 15px #bebebe,
+                   -7px -7px 15px #ffffff;
+      }
+    
+    .lemon {
+        width: 256px;
+        height: 144px;
+        background-size: 256px 144px;
+    }
+
+    .mode {
+        width: 256px;
+        height: 144px;
+        background-size: 256px 144px;
+    }
+
+    .sign {
+        width: 256px;
+        height: 144px;
+        background-size: 256px 144px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 7px;
+    }
+
+    .text {
+        max-width: 250px;
+    }
+
+}

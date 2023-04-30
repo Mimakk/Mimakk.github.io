@@ -103,3 +103,15 @@ h1 {
 .btn {
     margin: 2rem;
 }
+
+@media screen and (max-width: 870px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    .button {
+        font-size: 12px;
+        font-weight: 700;
+        padding: 1em 1.5em;
+    }
+}
